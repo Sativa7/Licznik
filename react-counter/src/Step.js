@@ -2,23 +2,11 @@ import React, {Component} from 'react';
 
 class Step extends Component {
 
-   // changeStep = event => {
-   //    this.setState({
-   //    changeStep: this._inputStep.value
-   //     })
-   //    console.log(this._inputStep.value)
-   // }
-
-
   updateStep = event => {
 
    //console.log("test")
       this.props.changeStep(this._inputStep.value);
       }
-
-    
-   
-
 
    render() {
       
