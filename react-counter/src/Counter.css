@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.counter {
+   border: 1px solid #20B3AB;
+   padding: 30px;
+   width: 300px;
+   left: 0;
+   right: 0;
+   margin: 30px auto;
+   font-weight: 900;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   background-color: #9EE5D3;
+   }
+   .counter span.value {
+   margin-left: 10px;
+   color: #20B3AB;
+   font-size: 25px;
+   }
+   .counter button {
+   margin: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+   border-radius: 4px;
+   color: white;
+   background-color: #20B3AB; 
+   height: 34px;
+   padding-right: 15px;
+   padding-left: 15px;
+   border: none;
+   font-weight: 900;
+   font-family: 'Raleway', sans-serif;
+   font-size: 14px;
+   outline: none;
+   }
+
+   button:hover {
+      background-color: #01C086;
+   }
+
+   .krok {
+   margin-left: 10px;
+   width: 40px;
+   height: 22px;
+   padding-left: 10px;
+   border-radius: 4px;
+   font-size: 14px;
+   border: 1px solid lightgray;
+   outline: none;
+   color: #666;
+   }
+
+   .label {
+      font-size: 14px;
+      color: #666;
+   }

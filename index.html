@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <script src="https://unpkg.com/react/umd/react.development.js"></script>
+   <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+   <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+</head>
+
+<body>
+   <div id="app"></div>
+  
+
+   <footer id="footer"></footer>
+
+   <script type="text/babel">
+      let imie = "Krystianek";
+      //głowna metoda: render na obiekcie DOM (kod w jsx musi być załadowany w jednym glownym znaczniku)
+   ReactDOM.render(
+   <div>
+   <h1>Witaj {imie}</h1>
+   <p>Aplikacja w ReactJs</p>
+   </div>,
+   document.getElementById("app")
+   );
+</script>
+
+   <script type="text/jsx">
+      let companyName = "db2";
+   ReactDOM.render(
+   <p>Akademia 108 &copy; {companyName}</p>,
+   document.getElementById("footer")
+   );
+</script>
+
+</body>
+
+</html>
